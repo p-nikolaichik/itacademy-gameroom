@@ -14,6 +14,7 @@ import com.itacademy.nikolaichik.util.ToysUtil;
 public class MainApp {
 
   public static void main(String[] args) throws NoSuchFieldException, IllegalArgumentException, IllegalAccessException {
+
     GameRoom gameRoom = new GameRoom(20, 600);
     Toy[] toys = new Toy[] {
         new RaceCar("Speed car", 5, 50, CarSize.SMALL),
@@ -26,6 +27,7 @@ public class MainApp {
         new Barbi("Barbi", 40, 10)
         
     };
+
     gameRoom.buyToys(toys);
     gameRoom.buyToys(toys);
     Toy[] sortedArray = ToysUtil.sort(gameRoom.getToys(), Parameter.PRICE);
@@ -40,5 +42,4 @@ public class MainApp {
     }
     System.out.println("==============");
   }
-
 }
