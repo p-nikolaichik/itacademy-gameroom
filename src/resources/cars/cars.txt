@@ -1,0 +1,6 @@
+name:Speed car, count:5, price:50, size:small
+name:Race car, count:235, price:70, size:small
+name:Rocket car", count:34534, price:20, size:medium
+name:Big race car", count:0, price:2, size:large
+name:Speed car", count:5, price:46, size:small
+name:Big van", count:10, price:20, CarSize.LARGE
